@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-self: center; align-items: stretch; min-width: 40%;">
+        <ui:Label text="Best Score" name="BestScore" style="align-self: center; color: rgb(255, 255, 255); font-size: 21px;"/>
+        <ui:TextField label="" placeholder-text="Enter Name..." hide-placeholder-on-focus="true" name="PlayerInput" style="-unity-font-style: italic; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; font-size: 20px;"/>
+        <ui:Button text="Start" name="Start" style="background-color: rgb(255, 255, 255); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; font-size: 14px;"/>
+        <ui:Button text="Quit" name="Quit" style="background-color: rgb(255, 255, 255); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; font-size: 14px;"/>
+    </ui:VisualElement>
+</ui:UXML>
